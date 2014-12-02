@@ -10,5 +10,3 @@ Documents in this repository include scripts for scraping the .gov data for two 
     2)	tracing the entire history of a given set of terms, and then either outputting the full text of those pages or outputting keyword counts from those pages
       
       a.	also possible to sort and categorize by URL group (the URL roots of interest)
-          
-      b.	also can include a measure of PageRank to weight results
