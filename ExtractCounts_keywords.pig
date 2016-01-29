@@ -16,7 +16,7 @@ REGISTER lib/ia-porky-jar-with-dependencies.jar;
 -- I used this for RegEx matching but its much slower so I switched to the long "or" statement you see below. However, if you are more comfrotable with
 --User defined functions in Python than this is what you do
 
-REGISTER 'threats_2Dec.py' USING jython AS myfuncs;
+REGISTER ‘UDFs.py’ USING jython AS myfuncs;
 
 DEFINE FROMJSON org.archive.porky.FromJSON();
 DEFINE SequenceFileLoader org.archive.porky.SequenceFileLoader();
